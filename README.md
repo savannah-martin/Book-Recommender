@@ -1,1 +1,44 @@
 # Book-Recommender
+List of python libs used and how to install them (requirements.txt)
+
+import numpy as np
+import pandas as pd
+import matplotlib.pyplot as plt
+from scipy.sparse import csr_matrix
+from sklearn.neighbors import NearestNeighbors
+from joblib import dump
+import pickle
+import streamlit as st
+from scipy.sparse import load_npz
+from joblib import load
+import pickle
+import difflib
+
+Guide on how to run the project: What commands do I need to run in order to use the project
+    1. conda activate <env>
+    2. streamlit run app.py
+
+Summary of what your project does
+
+Allows user to enter a book and suggests up to 5 based on user reviews. Sugggests similar books if entered title not in dataset.
+
+A section on the ML models used and what they are doing
+
+//todo
+KNearestNeighbors:
+
+Metrics section on how well the model did on the training data and eval data
+
+//todo
+
+Documents folder with any images or diagrams generated for the project
+
+//todo
+
+Code files that were used to run experiments and solve the problem
+
+attempt_svm.ipynb
+
+A front end for the user to see and interact with
+
+app.py
