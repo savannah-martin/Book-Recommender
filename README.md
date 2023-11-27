@@ -1,44 +1,44 @@
 # Book-Recommender
-List of python libs used and how to install them (requirements.txt)
 
-import numpy as np
-import pandas as pd
-import matplotlib.pyplot as plt
-from scipy.sparse import csr_matrix
-from sklearn.neighbors import NearestNeighbors
-from joblib import dump
-import pickle
-import streamlit as st
-from scipy.sparse import load_npz
-from joblib import load
-import pickle
-import difflib
+The Book Recommender allows the user to enter the title of a book and recieve up to five book recommendations based 
+on consumer reviews. If the title entered is not in the dataset, books with similar titles will be suggested.
 
-Guide on how to run the project: What commands do I need to run in order to use the project
-    1. conda activate <env>
-    2. streamlit run app.py
+## Requirements
 
-Summary of what your project does
+Our project requires the following modules:
+ - numpy
+ - pandas
+ - matplotlib
+ - sklearn.neighbors
+ - streamlit
+ - scipy.sparse
+ - joblib
+ - pickle
+ - difflib
 
-Allows user to enter a book and suggests up to 5 based on user reviews. Sugggests similar books if entered title not in dataset.
+## Installation
 
-A section on the ML models used and what they are doing
+1. Navigate to the desired folder.  
+    >cd Book Recommender
+2. Install the required modules:  
+    >pip install -r requirements.txt
+3. Create a new virtual environment in the folder and activate that environment:  
+    >python -m venv .venv  
+    source .venv/bin/activate
+4. Run the application  
+    >streamlit run app.py
 
-//todo
-KNearestNeighbors:
+## ML Models
 
-Metrics section on how well the model did on the training data and eval data
+1. SVM  
+    First, we attempted to utilize a support vector machine (known as an SVM). The training complexity of SVM is highly dependent on the size of data set and because we had such a large dataset, the SVM was painstakingly slow. Thus, we decided to utlize a different model. 
 
-//todo
+2. KNearestNeighbors  
+    
+3. KNeighbors Classifiers  
 
-Documents folder with any images or diagrams generated for the project
+<!-- ML models used and what they are doing -->
 
-//todo
+## Metrics section 
 
-Code files that were used to run experiments and solve the problem
-
-attempt_svm.ipynb
-
-A front end for the user to see and interact with
-
-app.py
+<!-- on how well the model did on the training data and eval data -->
