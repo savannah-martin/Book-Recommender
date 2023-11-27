@@ -31,7 +31,7 @@ Our project requires the following modules:
 ## ML Models
 
 1. SVM  
-    First, we attempted to utilize a support vector machine (known as an SVM). The training complexity of SVM is highly dependent on the size of data set. Because we had such a large dataset, the SVM was painstakingly slow, so we decided to utlize a differern model. 
+    First, we attempted to utilize a support vector machine (known as an SVM). The training complexity of SVM is highly dependent on the size of data set and because we had such a large dataset, the SVM was painstakingly slow. Thus, we decided to utlize a different model. 
 
 2. KNearestNeighbors  
     
