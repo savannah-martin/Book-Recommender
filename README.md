@@ -1,6 +1,6 @@
 # Book-Recommender
 
-The Book Recommender is based on a SVM model and allows the user to enter the title of a book and recieve up to five book recommendations based 
+The Book Recommender allows the user to enter the title of a book and recieve up to five book recommendations based 
 on consumer reviews. If the title entered is not in the dataset, books with similar titles will be suggested.
 
 ## Requirements
@@ -31,6 +31,7 @@ Our SVM requires the following modules:
 # ML Models
 1. SVM
 2. KNearestNeighbors:
+3. KNeihbors Classifiers
 
 
 
