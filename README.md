@@ -3,8 +3,7 @@ Guide on how to run the project: What commands do I need to run in order to use 
     1. conda activate <env>
     2. streamlit run app.py
 
-Summary of what your project does
-
+# Summary
 Allows user to enter a book and suggests up to 5 based on user reviews. Sugggests similar books if entered title not in dataset.
 
 A section on the ML models used and what they are doing
