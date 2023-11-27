@@ -1,5 +1,4 @@
 # Book-Recommender
-
 The Book Recommender allows the user to enter the title of a book and recieve up to five book recommendations based 
 on consumer reviews. If the title entered is not in the dataset, books with similar titles will be suggested.
 
@@ -16,16 +15,15 @@ Our SVM requires the following modules:
  - difflib
 
 ## Installation
-
 1. Navigate to the desired folder.
-    cd Book Recommender
+        cd Book Recommender
 2. Install the required modules:
-    pip install -r requirements.txt
+        pip install -r requirements.txt
 3. Create a new virtual environment in the folder and activate that environment:
-    python -m venv .venv
-    source .venv/bin/activate
+        python -m venv .venv
+        source .venv/bin/activate
 4. Run the application
-    streamlit run app.py
+        streamlit run app.py
 
 
 # ML Models
@@ -41,30 +39,4 @@ Our SVM requires the following modules:
 
 <!-- on how well the model did on the training data and eval data -->
 
-//todo
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<!-- Documents folder with any images or diagrams generated for the project
-
-//todo
-
-Code files that were used to run experiments and solve the problem
-
-attempt_svm.ipynb
-
-A front end for the user to see and interact with
-
-app.py -->
+<!-- Documents folder with any images or diagrams generated for the project -->
