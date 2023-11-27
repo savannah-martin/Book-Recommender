@@ -5,7 +5,7 @@ on consumer reviews. If the title entered is not in the dataset, books with simi
 
 ## Requirements
 
-Our SVM requires the following modules:
+Our project requires the following modules:
  - numpy
  - pandas
  - matplotlib
@@ -31,7 +31,8 @@ Our SVM requires the following modules:
 ## ML Models
 
 1. SVM  
-    First, we attempted to utilize a support vector machine (known as an SVM).
+    First, we attempted to utilize a support vector machine (known as an SVM). The training complexity of SVM is highly dependent on the size of data set. Because we had such a large dataset, the SVM was painstakingly slow, so we decided to utlize a differern model. 
+
 2. KNearestNeighbors  
     
 3. KNeighbors Classifiers  
@@ -41,4 +42,3 @@ Our SVM requires the following modules:
 ## Metrics section 
 
 <!-- on how well the model did on the training data and eval data -->
-<!-- Documents folder with any images or diagrams generated for the project -->
