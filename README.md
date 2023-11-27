@@ -1,19 +1,4 @@
 # Book-Recommender
-List of python libs used and how to install them (requirements.txt)
-
-import numpy as np
-import pandas as pd
-import matplotlib.pyplot as plt
-from scipy.sparse import csr_matrix
-from sklearn.neighbors import NearestNeighbors
-from joblib import dump
-import pickle
-import streamlit as st
-from scipy.sparse import load_npz
-from joblib import load
-import pickle
-import difflib
-
 Guide on how to run the project: What commands do I need to run in order to use the project
     1. conda activate <env>
     2. streamlit run app.py
