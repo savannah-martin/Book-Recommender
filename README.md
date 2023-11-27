@@ -15,15 +15,15 @@ Our SVM requires the following modules:
  - difflib
 
 ## Installation
-1. Navigate to the desired folder.
-    \\cd Book Recommender
-2. Install the required modules:
-    \\pip install -r requirements.txt
-3. Create a new virtual environment in the folder and activate that environment:
-    \\python -m venv .venv
-    \\source .venv/bin/activate
-4. Run the application
-    \\streamlit run app.py
+1. Navigate to the desired folder.  
+    cd Book Recommender
+2. Install the required modules:  
+    pip install -r requirements.txt
+3. Create a new virtual environment in the folder and activate that environment:  
+     python -m venv .venv  
+    source .venv/bin/activate
+4. Run the application\  
+    streamlit run app.py
 
 
 # ML Models
