@@ -1,8 +1,10 @@
 # Book-Recommender
+
 The Book Recommender allows the user to enter the title of a book and recieve up to five book recommendations based 
 on consumer reviews. If the title entered is not in the dataset, books with similar titles will be suggested.
 
 ## Requirements
+
 Our SVM requires the following modules:
  - numpy
  - pandas
@@ -15,6 +17,7 @@ Our SVM requires the following modules:
  - difflib
 
 ## Installation
+
 1. Navigate to the desired folder.  
     >cd Book Recommender
 2. Install the required modules:  
@@ -25,18 +28,17 @@ Our SVM requires the following modules:
 4. Run the application  
     >streamlit run app.py
 
+## ML Models
 
-# ML Models
-1. SVM
-2. KNearestNeighbors:
-3. KNeihbors Classifiers
-
-
+1. SVM  
+    First, we attempted to utilize a support vector machine (known as an SVM).
+2. KNearestNeighbors  
+    
+3. KNeighbors Classifiers  
 
 <!-- ML models used and what they are doing -->
 
-# Metrics section 
+## Metrics section 
 
 <!-- on how well the model did on the training data and eval data -->
-
 <!-- Documents folder with any images or diagrams generated for the project -->
