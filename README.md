@@ -16,21 +16,31 @@ Our SVM requires the following modules:
  - difflib
 
 ## Installation
-How to run 
------------
-Guide on how to run the project: What commands do I need to run in order to use the project
-    1. conda activate <env>
-    2. streamlit run app.py
+
+1. Navigate to the desired folder.
+    cd Book Recommender
+2. Install the required modules:
+    pip install -r requirements.txt
+3. Create a new virtual environment in the folder and activate that environment:
+    python -m venv .venv
+    source .venv/bin/activate
+4. Run the application
+    streamlit run app.py
 
 
-A section on the ML models used and what they are doing
+# ML Models
+1. SVM
+2. KNearestNeighbors:
+
+
+
+<!-- ML models used and what they are doing -->
+
+# Metrics section 
+
+<!-- on how well the model did on the training data and eval data -->
 
 //todo
-KNearestNeighbors:
-
-Metrics section on how well the model did on the training data and eval data
-
-//todo
 
 
 
@@ -46,7 +56,7 @@ Metrics section on how well the model did on the training data and eval data
 
 
 
-Documents folder with any images or diagrams generated for the project
+<!-- Documents folder with any images or diagrams generated for the project
 
 //todo
 
@@ -56,4 +66,4 @@ attempt_svm.ipynb
 
 A front end for the user to see and interact with
 
-app.py
+app.py -->
